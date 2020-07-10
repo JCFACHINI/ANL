@@ -1,0 +1,7 @@
+mutual amostras.txt -o mut.txt
+
+false_nearest amostras.txt -d tal -o near.txt
+
+delay amostras.txt -d tal -m n -o delay.txt
+
+pca delay.txt
